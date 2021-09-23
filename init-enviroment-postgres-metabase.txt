@@ -1,0 +1,2 @@
+$ curl https:/url.com/docker-compose-metabase-postgres.yml -o docker-compose-metabase-postgres.yml
+$ docker-compose -f docker-compose-metabase-postgres.yml up -d

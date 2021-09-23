@@ -1,0 +1,2 @@
+$ curl https://url.com/docker-compose-kafka-nifi.yml -o docker-compose-kafka-nifi.yml
+$ docker-compose -f docker-compose-kafka-nifi.yml up -d
