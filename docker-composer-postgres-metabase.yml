@@ -1,4 +1,4 @@
-version: "3"
+version: '3'
 services:
   postgres-db:
     image: postgres:9.6.23
@@ -41,5 +41,5 @@ services:
       - postgres-db
 
 networks: 
-  twitter-net:
+  dataflow01-net:
     driver: bridge 

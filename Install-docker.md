@@ -1,3 +1,9 @@
+
+## Instalacao do Yum Utils, criar repositorio e iniciar o Docker.
+
+Comandos:
+
+```
 $ sudo yum install -y yum-utils
 $ sudo yum-config-manager \
     --add-repo \
@@ -6,3 +12,4 @@ $ sudo yum install docker-ce docker-ce-cli containerd.io
 $ sudo systemctl enable docker 
 $ sudo systemctl start docker
 $ sudo usermod -aG docker $USER
+```
