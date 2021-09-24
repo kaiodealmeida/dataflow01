@@ -63,5 +63,5 @@ services:
       - /nifi:/data
 
 networks: 
-  twitter-net:
+  dataflow01-net:
     driver: bridge 
