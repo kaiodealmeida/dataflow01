@@ -3,6 +3,6 @@
 Comandos:
 
 ```
-$ curl https://github.com/kaiodealmeida/dataflow01/blob/main/docker-composer-nifi-kafka.yml -o docker-compose-kafka-nifi.yml
-$ docker-compose -f docker-compose-kafka-nifi.yml up -d
+$ curl https://raw.githubusercontent.com/kaiodealmeida/dataflow01/main/docker-composer-nifi-kafka.yml -o docker-composer-nifi-kafka.yml
+$ docker-compose -f docker-composer-nifi-kafka.yml up -d
 ```

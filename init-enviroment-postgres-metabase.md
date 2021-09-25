@@ -2,6 +2,6 @@
 
 Comandos:
 ```
-$ curl https://github.com/kaiodealmeida/dataflow01/blob/main/docker-composer-postgres-metabase.yml -o docker-compose-metabase-postgres.yml
-$ docker-compose -f docker-compose-metabase-postgres.yml up -d
+$ curl https://raw.githubusercontent.com/kaiodealmeida/dataflow01/main/docker-composer-postgres-metabase.yml -o docker-composer-postgres-metabase.yml
+$ docker-compose -f docker-composer-postgres-metabase.yml up -d
 ```
